@@ -137,7 +137,7 @@ namespace Member_Management
             driver.FindElement(By.Name("username")).SendKeys("qatesting02");
             driver.FindElement(By.Id("Loginpassword")).Click();
             driver.FindElement(By.Id("Loginpassword")).Clear();
-            driver.FindElement(By.Id("Loginpassword")).SendKeys("test20220307");
+            driver.FindElement(By.Id("Loginpassword")).SendKeys("test" + today);
             driver.FindElement(By.Id("btn-signin")).Click();
         }
     }
